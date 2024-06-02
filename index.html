@@ -9,61 +9,66 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+
   <header class="header">
     <div class="title">
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
 
-  </header>
-  
-    <picture>
-      <!-- Landscape images for the viewpoint is smaller than 960px -->
-
-        <source srcset="images/landscapeimages/320px/museum-320_x_180.jpg,
-                        images/landscapeimages/320px/museum-640_x_360.jpg 2x,
-                        images/landscapeimages/320px/museum-960_x_540.jpg 3x"
-                media="max-width: 320px">
-
-        <source srcset="images/landscapeimages/480px/museum-480_x_270.jpg,
-                        images/landscapeimages/480px/museum-960_x_540.jpg 2x,
-                        images/landscapeimages/480px/museum-1440_x_810.jpg 3x"
-                media="max-width: 480px">
-
-        <source srcset="images/landscapeimages/720px/museum-720_x_405.jpg,
-                        images/landscapeimages/720px/museum-1440_x_810.jpg 2x,
-                        images/landscapeimages/720px/museum-2160_x_1215.jpg 3x"
-                media="max-width: 720px">
-
-        <source srcset="images/landscapeimages/960px/museum-960_x_540.jpg,
-                        images/landscapeimages/960px/museum-1920_x_1080.jpg 2x,
-                        images/landscapeimages/960px/museum-2880_x_1620.jpg 3x"
-                media="max-width: 960px">
-
-  
-     <!-- Square images for the viewpoint is 960px or larger -->
-  
-        <source srcset="images/squareimages/1600px/museum-800_x_800.jpg,
-                        images/squareimages/1600px/museum-1600_x_1600.jpg 2x,
-                        images/squareimages/1600px/museum-2400_x_2400.jpg 3x"
-                media="min-width: 1600px">
-
-        <source srcset="images/squareimages/1280px/museum-640_x_640.jpg,
-                        images/squareimages/1280px/museum-1280_x_1280.jpg 2x,
-                        images/squareimages/1280px/museum-1920_x_1920.jpg 3x"
-                media="min-width: 1280px">
-
-        <source srcset="images/squareimages/960px/museum-480_x_480.jpg,
-                        images/squareimages/960px/museum-960_x_960.jpg 2x,
-                        images/squareimages/960px/museum-1440_x_1440.jpg 3x"
-                media="min-width: 960px">
-
-        <img src="images/landscapeimages/960px/museum-960_x_540.jpeg" alt="placeholder">
-    </picture>
+    <body>
+      <div class="container">
+      <section>
+        <picture>
+          <!-- Landscape images for the viewpoint is smaller than 960px -->
     
-
+            <source srcset="images/landscapeimages/320px/museum-320_x_180.jpeg,
+                            images/landscapeimages/320px/museum-640_x_360.jpeg 2x,
+                            images/landscapeimages/320px/museum-960_x_540.jpeg 3x"
+                    media="max-width: 320px">
+    
+            <source srcset="images/landscapeimages/480px/museum-480_x_270.jpeg,
+                            images/landscapeimages/480px/museum-960_x_540.jpeg 2x,
+                            images/landscapeimages/480px/museum-1440_x_810.jpeg 3x"
+                    media="max-width: 480px">
+    
+            <source srcset="images/landscapeimages/720px/museum-720_x_405.jpeg,
+                            images/landscapeimages/720px/museum-1440_x_810.jpeg 2x,
+                            images/landscapeimages/720px/museum-2160_x_1215.jpeg 3x"
+                    media="max-width: 720px">
+    
+            <source srcset="images/landscapeimages/960px/museum-960_x_540.jpeg,
+                            images/landscapeimages/960px/museum-1920_x_1080.jpeg 2x,
+                            images/landscapeimages/960px/museum-2880_x_1620.jpeg 3x"
+                    media="max-width: 960px">
+                    
   
-</body>
+
+         <!-- Square images for the viewpoint is 960px or larger -->
+      
+            <source srcset="images/squareimages/1600px/museum-800_x_800.jpg,
+                            images/squareimages/1600px/museum-1600_x_1600.jpg 2x,
+                            images/squareimages/1600px/museum-2400_x_2400.jpg 3x"
+                    media="min-width: 1600px">
+    
+            <source srcset="images/squareimages/1280px/museum-640_x_640.jpg,
+                            images/squareimages/1280px/museum-1280_x_1280.jpg 2x,
+                            images/squareimages/1280px/museum-1920_x_1920.jpg 3x"
+                    media="min-width: 1280px">
+    
+            <source srcset="images/squareimages/960px/museum-480_x_480.jpg,
+                            images/squareimages/960px/museum-960_x_960.jpg 2x,
+                            images/squareimages/960px/museum-1440_x_1440.jpg 3x"
+                    media="min-width: 960px">
+            
+            <img src="images/museum-2400_x_2400.jpg" alt="image of museum">
+        </picture>
+        
+      </section>
+    </body>
+  
+  </header>
+
+
 
 </html>
